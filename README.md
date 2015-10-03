@@ -1,6 +1,8 @@
 # BTCC FIX API wrapper
 
+```sh
 npm install btcc_api
+```
 
 A basic API wrapper for the BTCC Trading and Market API.
 
