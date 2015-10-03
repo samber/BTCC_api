@@ -1,7 +1,7 @@
 {
     "name": "btcc_api",
     "version": "0.0.1",
-    "description": "BTCchina REST API wrapper",
+    "description": "BTCC REST API wrapper",
     "keywords": [
 	"api",
 	"rest",
