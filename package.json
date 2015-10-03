@@ -1,0 +1,29 @@
+{
+    "name": "btcc_api",
+    "version": "0.0.1",
+    "description": "BTCchina REST API wrapper",
+    "keywords": [
+	"api",
+	"rest",
+	"btcchina",
+	"btc",
+	"bitcoin",
+	"exchange",
+	"trade"
+    ],
+    "author": {
+	"author": "Samuel BERTHE <contact@samuel-berthe.fr>"
+    },
+    "license": "MIT",
+    "dependencies": {
+	"request-promise": "^0.4.3"
+    },
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/samber/btcc_api"
+    },
+    "main": "lib/btcc.js",
+    "engines": {
+	"node": ">= 0.10.0"
+    }
+}
