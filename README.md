@@ -6,7 +6,7 @@ A basic API wrapper for the BTCC Trading and Market API.
 
 Please refer to the documentation of the [Trading API](http://btcchina.org/api-trade-documentation-en) and for the [Market API](http://btcchina.org/api-market-data-documentation-en) for all calls explained. Check out `sample.js` for a list of all possible calls and their parameters.
 
-"""js
+```js
 var key = "<key>";
 var secret = "<secret>";
 var trade = new BTCC.Trade(key, secret);
@@ -14,8 +14,7 @@ var market = new BTCC.Market();
 
 trade.getAccountInfo().then(console.log).catch(console.error);
 market.ticker().then(console.log).catch(console.error);
-
-"""
+```
 
 # License
 
